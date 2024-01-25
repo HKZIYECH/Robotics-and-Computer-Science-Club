@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Sarabun&family=Work+Sans&display=swap');
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background: #132022;
+  scroll-behavior: smooth;
+}
+.nav .container{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px;
+    height: 100%;
+}
+
+.nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fffafa;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.nav ul li{
+    font-size: 20px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fffafa;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav{
+    padding: 10px;
+    transition: 1s;
+}
+
+.nav ul li a:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+
+div.container{
+  border: 2px solid #13E07E;
+  border-radius: 7px;
+  -webkit-box-shadow: 10px 10px 52px 3px rgba(57,212,0,1);
+    -moz-box-shadow: 10px 10px 52px 3px rgba(57,212,0,1);
+    box-shadow: 10px 10px 52px 3px rgba(57,212,0,1);;
+}
+
+
+.container1 h1{
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container1 p{
+    color: #fff;
+}
+
+.img1{
+    width: 420px;
+    margin-top: 170px;
+}
+
+.image2{
+  width: 420px;
+  margin-top: 220px;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container1{
+    margin-top: 10px;
+}
+
+.paragraph1{
+  width: 700px;
+}
+
+li, p{
+  font-family: 'Sarabun', sans-serif;
+}
+
+p{
+  font-size: 20px
+}
+
+li{
+  color: #fff
+}
+/* CONTAINER TWO */
+
+.container2 h1{
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container2 p{
+    color: #fff;
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+.container2{
+    margin-top: 10px;
+}
+
+.paragraph2{
+  width: 700px;
+}
+
+/* CONTAINER THREE */
+
+.container3 h1{
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container3 p{
+    color: #fff;
+}
+
+.courses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+.box-cont, .box-cont-2{
+  display: flex;
+  gap: 50px;
+}
+
+.box-cont-2{
+  margin-top: 40px;
+}
+.container3{
+    margin-top: 10px;
+}
+
+.paragraph3{
+  width: 400px;
+  font-size: 15px;
+}
+
+h2{
+  color: #fff;
+  font-size: 30px;
+}
+
+.box{
+  border: 2px solid #13E07E;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 52px 3px rgba(57,212,0,1);
+      -moz-box-shadow: 10px 10px 52px 3px rgba(57,212,0,1);
+      box-shadow: 10px 10px 52px 3px rgba(57,212,0,1);;
+
+  padding: 20px;
+  text-align: center;
+  }
+
+
+#course{
+  margin-left: 90px;
+  margin-bottom: 40px;
+}
+
+/* CONTAINER FOUR */
+
+.container4 h1{
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container4 p{
+    color: #fff;
+}
+
+.container4{
+    margin-top: 10px;
+}
+
+.paragraph3{
+  width: 700px;
+  font-size: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+a{
+  color: #13E07E;
+}
+
+@media screen and (max-width: 768px){
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .container1{
+    align-items: center;
+  }
+
+  .container1 h1{
+    width: 700px;
+    font-size: 65px;
+  }
+
+  .container{
+    width: 700px;
+  }
+
+  .paragraph1{
+    font-size: 22px;
+  }
+
+  li{
+    font-size: 18px;
+  }
+
+  .img1{
+    width: 210px;
+    margin-top: -530px;
+    margin-left: 450px;
+  }
+
+
+
+  .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .container4{
+    align-items: center;
+  }
+
+  .container4 h1{
+    width: 700px;
+    font-size: 65px;
+  }
+
+  .container4{
+    width: 700px;
+  }
+
+  .paragraph3{
+    font-size: 22px;
+  }
+
+  li{
+    font-size: 18px;
+  }
+
+  .image2{
+    width: 180px;
+    margin-top: -530px;
+    margin-left: 490px;
+  }
+
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .container2{
+    align-items: center;
+  }
+
+  .container2 h1{
+    width: 700px;
+    font-size: 65px;
+  }
+
+  .container2{
+    width: 700px;
+  }
+
+
+  li{
+    font-size: 18px;
+  }
+
+  .image2{
+    width: 180px;
+    margin-top: -530px;
+    margin-left: 490px;
+  }
+}
