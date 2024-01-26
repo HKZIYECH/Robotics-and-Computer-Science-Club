@@ -127,6 +127,10 @@ strong{
     color: #fff;
 }
 
+span{
+  color: #13E07E;
+}
+
 .about{
     display: flex;
     justify-content: space-evenly;
