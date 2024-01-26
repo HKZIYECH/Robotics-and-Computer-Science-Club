@@ -90,6 +90,10 @@ div.container{
     margin-top: 10px;
 }
 
+.container1 li{
+  color: #13E07E;
+}
+
 .paragraph1{
   width: 700px;
 }
