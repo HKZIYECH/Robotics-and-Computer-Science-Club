@@ -87,6 +87,10 @@ div.container{
     justify-content: space-evenly;
 }
 
+i{
+  width: 100px;
+}
+
 .container1{
     margin-top: 10px;
 }
