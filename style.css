@@ -158,21 +158,37 @@ span{
     color: #fff;
 }
 
-.courses{
+span{
+  color: #13E07E;
+}
+
+.course{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     margin-top: 200px;
 }
 
-.box-cont, .box-cont-2{
-  display: flex;
-  gap: 50px;
+.container3{
+    margin-top: 10px;
 }
 
-.box-cont-2{
-  margin-top: 40px;
+.paragraph3{
+  width: 700px;
 }
+
+.course h2{
+  color: #94ffcb;
+}
+
+.image3{
+  width: 420px;
+  margin-top: 220px;
+}
+/*Container three end*/
+
+
+
+
 .container3{
     margin-top: 10px;
 }
@@ -199,10 +215,7 @@ h2{
   }
 
 
-#course{
-  margin-left: 90px;
-  margin-bottom: 40px;
-}
+
 
 /* CONTAINER FOUR */
 
@@ -233,6 +246,15 @@ h2{
 
 a{
   color: #13E07E;
+}
+
+
+.pythonimg{
+  width: 200px;
+}
+
+.course{
+  display: flex;
 }
 
 @media screen and (max-width: 768px){
@@ -331,9 +353,34 @@ a{
     font-size: 18px;
   }
 
-  .image2{
-    width: 180px;
+  .image3{
+    width: 0px;
     margin-top: -530px;
     margin-left: 490px;
   }
+
+  .course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .container3{
+    align-items: center;
+  }
+
+  .container3 h1{
+    width: 700px;
+    font-size: 65px;
+  }
+
+.container3 h2{
+  font-size: 40px;
+}
+
+  .container3{
+    width: 700px;
+  }
+ 
 }
