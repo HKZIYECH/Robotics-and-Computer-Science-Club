@@ -19,7 +19,7 @@ body{
 }
 
 .container1 li{
-  line-height: 80px;
+  line-height: 20px;
 }
 
 .nav ul{
@@ -90,7 +90,7 @@ div.container{
     justify-content: space-evenly;
 }
 
-i{
+.container1 i{
   font-size: 20px;
 }
 
