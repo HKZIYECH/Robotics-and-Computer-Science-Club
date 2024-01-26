@@ -18,6 +18,9 @@ body{
     height: 100%;
 }
 
+.container1 li{
+  line-height: 10px;
+}
 
 .nav ul{
     display: flex;
