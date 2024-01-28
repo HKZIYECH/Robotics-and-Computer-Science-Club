@@ -8,8 +8,9 @@ html {
 }
 
 body{
-  background: #132022;
   scroll-behavior: smooth;
+  background: rgb(21,16,99);
+background: linear-gradient(90deg, rgba(21,16,99,1) 0%, rgba(40,201,122,1) 30%, rgba(25,207,101,1) 36%, rgba(25,142,199,1) 100%);
 }
 .nav .container{
     display: flex;
